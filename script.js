@@ -13,6 +13,7 @@ findBtn.addEventListener("click", findWords);
 
 function countWords() {
   // your code here
+  const words = textInput.split(" ");
   console.log(words.length);
   // call printData
   printData(words.length + " words", wordCountInput);
